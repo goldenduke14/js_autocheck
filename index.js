@@ -159,3 +159,102 @@
 // console.log(calculateTotalPrice("Droid"));
 // console.log(calculateTotalPrice("Grip"));
 // console.log(calculateTotalPrice("Scanner"));
+
+
+//                        task 21
+// Надійшов триденний прогноз максимальних температур і ми рахуємо середню температуру за три дні (meanTemperature). Заміни оголошення змінних yesterday, today і tomorrow однією операцією деструктуризації властивостей об'єкта highTemperatures.
+
+// Оголошена змінна highTemperatures
+// Значення змінної highTemperatures - це об'єкт
+// Оголошена змінна yesterday за допомогою деструктуризації
+// Значення змінної yesterday - це число 28
+// Оголошена змінна today за допомогою деструктуризації
+// Значення змінної today - це число 26
+// Оголошена змінна tomorrow за допомогою деструктуризації
+// Значення змінної tomorrow - це число 33
+// Оголошена змінна meanTemperature
+// Значення змінної meanTemperature - це число 29
+// Використовується синтаксис деструктуризації об'єкта highTemperatures
+
+// const highTemperatures = {
+//   yesterday: 28,
+//   today: 26,
+//   tomorrow: 33,
+// };
+// const { yesterday, today, tomorrow } = highTemperatures;
+
+// const meanTemperature = (yesterday + today + tomorrow) / 3;
+
+// console.log(meanTemperature);
+
+//                           task 22
+// У прогнозі максимальних температур також може бути необов'язкова властивість icon - іконка погоди. Заміни оголошення змінних yesterday, today, tomorrow і icon однією операцією деструктуризації властивостей об'єкта highTemperatures. Задай значення за замовчуванням для icon - рядок "https://www.flaticon.com/svg/static/icons/svg/2204/2204346.svg".
+
+// Оголошена змінна highTemperatures
+// Значення змінної highTemperatures - це об'єкт
+// Оголошена змінна highTemperatures
+// Значення змінної highTemperatures - це об'єкт
+// Оголошена змінна yesterday за допомогою деструктуризації
+// Значення змінної yesterday - це число 28
+// Оголошена змінна today за допомогою деструктуризації
+// Значення змінної today - це число 26
+// Оголошена змінна tomorrow за допомогою деструктуризації
+// Значення змінної tomorrow - це число 33
+// Оголошена змінна icon за допомогою деструктуризації
+// Значення змінної icon - це рядок "https://www.flaticon.com/svg/static/icons/svg/2204/2204346.svg".
+// Використовується деструктуризація об'єкта
+
+
+// const highTemperatures = {
+//   yesterday: 28,
+//   today: 26,
+//   tomorrow: 33,
+// };
+// // Change code below this line
+
+// const {
+//   yesterday,
+//   today,
+//   tomorrow,
+//   icon: icon = "https://www.flaticon.com/svg/static/icons/svg/2204/2204346.svg",
+// } = highTemperatures;
+
+// // Change code above this line
+// const meanTemperature = (yesterday + today + tomorrow) / 3;
+
+// console.log(meanTemperature);
+
+//                        task 23
+// Заміни оголошення змінних highYesterday, highToday, highTomorrow і highIcon однією операцією деструктуризації властивостей об'єкта highTemperatures. Задай значення за замовчуванням для highIcon - рядок "https://www.flaticon.com/svg/static/icons/svg/2204/2204346.svg".
+
+// Оголошена змінна highTemperatures
+// Значення змінної highTemperatures - це об'єкт
+// Оголошена змінна highYesterday
+// Значення змінної highYesterday - це число 28
+// Оголошена змінна highToday
+// Значення змінної highToday - це число 26
+// Оголошена змінна highTomorrow
+// Значення змінної highTomorrow - це число 33
+// Оголошена змінна highIcon
+// Значення змінної highIcon - це рядок "https://www.flaticon.com/svg/static/icons/svg/2204/2204346.svg"
+// Використовується деструктуризація об'єкта
+
+
+// const highTemperatures = {
+//   yesterday: 28,
+//   today: 26,
+//   tomorrow: 33,
+// };
+// // Change code below this line
+
+// const {
+//   yesterday: highYesterday,
+//   today: highToday,
+//   tomorrow: highTomorrow,
+//   icon: highIcon = "https://www.flaticon.com/svg/static/icons/svg/2204/2204346.svg",
+// } = highTemperatures;
+
+// // Change code above this line
+// const meanTemperature = (highYesterday + highToday + highTomorrow) / 3;
+
+// console.log(meanTemperature);
