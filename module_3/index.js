@@ -734,7 +734,6 @@
 //   },
 // };
 
-
 // console.log(atTheOldToad.getPotions());
 // console.log(atTheOldToad.addPotion({ name: "Invisibility", price: 620 }));
 // console.log(atTheOldToad.addPotion({ name: "Power potion", price: 270 }));
